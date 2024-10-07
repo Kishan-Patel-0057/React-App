@@ -12,7 +12,8 @@ command = "npm run build"
 commandOrigin = "ui"
 
   [build.environment]
-
+  NODE_VERSION = "16"
+  
   [build.processing]
 
     [build.processing.css]
@@ -25,5 +26,3 @@ commandOrigin = "ui"
 
   [build.services]
   
-  [build.environment]
-  NODE_VERSION = "16"
