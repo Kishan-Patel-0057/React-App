@@ -24,3 +24,6 @@ commandOrigin = "ui"
     [build.processing.js]
 
   [build.services]
+  
+  [build.environment]
+  NODE_VERSION = "16"
