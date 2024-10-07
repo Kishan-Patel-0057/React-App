@@ -7,7 +7,7 @@ redirects = []
   [functions."*"]
 
 [build]
-base = ".//React-App"
+base = ".//React App"
 publish = "build"
 command = "npm run build"
 commandOrigin = "ui"
