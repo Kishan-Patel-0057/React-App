@@ -25,9 +25,3 @@ commandOrigin = "ui"
     [build.processing.js]
 
   [build.services]
-
-  [[redirects]]
-  from = "/blog"
-  to = "/"
-  status = 301
-  force = true
