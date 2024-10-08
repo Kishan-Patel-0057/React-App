@@ -27,7 +27,7 @@ commandOrigin = "ui"
   [build.services]
 
   [[redirects]]
-  from = "https://addact-dev.netlify.app/blog"
-  to = "https://addact-dev.netlify.app/"
+  from = "/blog"
+  to = "/"
   status = 301
   force = true
