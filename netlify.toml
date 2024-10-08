@@ -13,7 +13,7 @@ commandOrigin = "ui"
 
   [build.environment]
   NODE_VERSION = "16"
-  
+
   [build.processing]
 
     [build.processing.css]
@@ -25,4 +25,9 @@ commandOrigin = "ui"
     [build.processing.js]
 
   [build.services]
-  
+
+  [[redirects]]
+  from = "https://addact-dev.netlify.app/blog"
+  to = "https://addact-dev.netlify.app/"
+  status = 301
+  force = true
