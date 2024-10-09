@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
     const navigate = useNavigate();
   
     const handleClick = () => {
-      navigate('https://addact-dev.netlify.app/blog');
+      navigate('/blog');
     };
   return (
     <div className="home">
