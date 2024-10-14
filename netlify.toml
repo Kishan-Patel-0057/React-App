@@ -3,7 +3,6 @@ headers = []
 redirects = []
 
 [functions]
-  directory = "EdgeFunction"
 
   [functions."*"]
 
