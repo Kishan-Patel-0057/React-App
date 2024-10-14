@@ -13,7 +13,7 @@ commandOrigin = "ui"
 
   [build.environment]
   NODE_VERSION = "16"
-  
+
   [build.processing]
 
     [build.processing.css]
@@ -23,6 +23,7 @@ commandOrigin = "ui"
     [build.processing.images]
 
     [build.processing.js]
+
 
   [build.services]
   [[edge_functions]]

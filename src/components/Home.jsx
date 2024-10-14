@@ -1,6 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-function Home() {
+// function Home() {
+  const Home = () => {
+    const navigate = useNavigate();
+  
+    const handleClick = () => {
+      navigate('/blog');
+    };
   return (
     <div className="home">
       <div class="container">
@@ -20,11 +27,24 @@ function Home() {
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book.
             </p>
-          </div>
+            <button 
+            onClick={handleClick}
+            style={{
+              padding: '10px 20px',
+              fontSize: '16px',
+              backgroundColor: '#007bff',
+              color: 'white',
+              border: 'none',
+              borderRadius: '5px',
+              cursor: 'pointer'
+            }}
+          >
+            Go to Blog
+          </button>
+          </div>          
         </div>
       </div>
     </div>
   );
-}
-
+};
 export default Home;
