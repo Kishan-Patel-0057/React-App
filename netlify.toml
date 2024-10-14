@@ -26,7 +26,6 @@ commandOrigin = "ui"
 
   [build.services]
   [[edge_functions]]
-  
-  path = "/EdgeFunction"
-  
-  function = "hello"
+  path = "/hello"
+
+  function = "EdgeFunction"
