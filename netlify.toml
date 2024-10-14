@@ -25,3 +25,7 @@ commandOrigin = "ui"
     [build.processing.js]
 
   [build.services]
+
+[[edge_functions]]
+path = "/demo"
+function = "EdgeFunction"
