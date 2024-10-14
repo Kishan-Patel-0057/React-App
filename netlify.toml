@@ -3,6 +3,7 @@ headers = []
 redirects = []
 
 [functions]
+  directory = "EdgeFunction"
 
   [functions."*"]
 
@@ -25,9 +26,3 @@ commandOrigin = "ui"
     [build.processing.js]
 
   [build.services]
-
-# Edge Function configuration should be outside the [build] section
-
-[[edge_functions]]
-path = "/hello"
-function = "EdgeFunction"
